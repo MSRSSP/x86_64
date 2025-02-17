@@ -150,6 +150,8 @@ bitflags! {
         /// This is the PAT bit for page table entries that point to huge pages.
         const PAT_HUGE_PAGE =   1 << 12;
         /// Available to the OS, can be used to store additional data, e.g. custom flags.
+        const BIT_51 =          1 << 51;
+        /// Available to the OS, can be used to store additional data, e.g. custom flags.
         const BIT_52 =          1 << 52;
         /// Available to the OS, can be used to store additional data, e.g. custom flags.
         const BIT_53 =          1 << 53;
